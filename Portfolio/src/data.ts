@@ -1,14 +1,15 @@
 
 import type { Projects } from './types';
+import soleroImage from './assets/images/solero.png';
 
 export const projects: Projects[] = [
     {
         id: 1,
-        title: "Portfolio Website",
-        description: "A personal portfolio website built using React and TypeScript to showcase my projects and skills.",
-        image: "/images/portfolio.png",
-        link: "https://github.com/yourusername/portfolio",
-        technologies: ["React", "TypeScript", "CSS"]
+        title: "Calippo shotts one-page snapshot",
+        description: "This is a one-page snapshot of a potential promotion for the return of the popular ice cream that got discontinued in 2020, and after rumors of its return we made this site snapshot as a suggestion for what a return could look like, with some popular flavours from the CocaCola company.",
+        image: soleroImage,
+        link: "https://github.com/Crestedgaming/fed25d-grafiska-verktyg-bleed-trim",
+        technologies: ["HTML", "CSS", "JavaScript", "Biome", "Vite", "Json", "pnpm", "GitHub", "GitHub Pages"]
     },
     {
         id: 2,
