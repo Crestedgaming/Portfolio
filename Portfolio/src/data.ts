@@ -1,8 +1,8 @@
 
-import type { Projects } from './types';
+import type { types } from './types';
 import soleroImage from './assets/images/solero.png';
 
-export const projects: Projects[] = [
+export const projects: types[] = [
     {
         id: 1,
         title: "Calippo shotts one-page snapshot",

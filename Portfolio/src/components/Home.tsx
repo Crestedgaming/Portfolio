@@ -6,6 +6,7 @@ const Home = () => {
   return (
     <div>
       <img src={bannerImage} alt="Banner" />
+      <p id="about">I'm a frontend development student with a background in environmental science. I'm particularly interested in combining technology, usability and sustainability to create meaningful digital experiences.</p>
     </div>
   )
 }
