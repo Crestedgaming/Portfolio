@@ -1,21 +1,25 @@
-
+import {useState} from 'react';
 import ProjectCard from './ProjectCard';
 import { projects } from '../data';
 
 const Projects = () => {
   
+useState() 
 
   return (
-    <div className="projects">
+    
+    <div className="projects" id="projects">
+      
       <h2>Projects</h2>
-      <ProjectCard project={projects[0]} />
-      <ProjectCard project={projects[1]} />
-      <ProjectCard project={projects[2]} />
-      <ProjectCard project={projects[3]} />
-      <ProjectCard project={projects[4]} />
-      <ProjectCard project={projects[5]} />
+
+      {projects.map((project) => (
+        <ProjectCard
+          key={project.id}
+          project={project}
+        />
+      ))}
     </div>
-  )
-}
+  );
+};
 
 export default Projects
