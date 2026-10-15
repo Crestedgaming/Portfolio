@@ -1,4 +1,5 @@
 import type { types } from '../types';
+import githubIcon from '../assets/images/GitHub_Invertocat_Black_Clearspace.svg';
 
 type ProjectCardProps = {
   project: types;
@@ -12,8 +13,9 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
       <img src={image} alt={title} />
       <h3>{title}</h3>
       <p>{description}</p>
-      <a href={link} target="_blank" rel="noopener noreferrer">
-        View Project
+      <a className="project-link"  href={link} target="_blank" rel="noopener noreferrer">
+        View Project 
+        <img src={githubIcon} alt="" />
       </a>
       <div className="technologies">
         {technologies.map((tech) => (

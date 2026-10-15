@@ -7,3 +7,166 @@ html {
     scroll-behavior: auto;
   }
 }
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.header {
+  padding: 1rem;
+}
+
+.header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 0;
+  list-style: none;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.home img,
+.project-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+@media (min-width: 600px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  main {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .projects {
+    grid-column: 1 / -1;
+  }
+}
+
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 600px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1000px) {
+  .projects-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.filters button {
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #deded8;
+  border-radius: 999px;
+  background-color: #fff;
+  color: #777;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filters button:hover {
+  background-color: #f0f0ff;
+    border-color: #4658ed;
+    color: #4658ed;
+}
+
+.filters button.active {
+  background-color: #4658ed;
+  color: white;
+  border-color: #4658ed;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  
+}
+
+.technologies span {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid #deded8;
+  border-radius: 999px;
+  background-color: #f5f5f5;
+  color: #666;
+  font-size: 0.75rem;
+}
+
+.project-card {
+  background-color: #fff;
+  border: 1px solid #deded8;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+.project-card img {
+  background-color: #a4a4a4;
+  padding:5%;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border-top: #333;
+}
+
+.project-link img {
+  width: 3rem;
+  height: 3rem;
+  background: none;
+}

@@ -2,8 +2,8 @@
 
 const Header = () => {
   return (
-    <header>
-      <h1>My Portfolio</h1>
+    <header id="header" className="header">
+      <h1>Markus Jönsson</h1>
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
