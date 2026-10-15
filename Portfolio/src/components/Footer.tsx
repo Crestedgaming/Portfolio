@@ -4,7 +4,7 @@ import linkedinIcon from '../assets/images/InBug-Black.png';
 const Footer = () => {
   return (
     
-      <footer id="contact">
+      <footer className="footer" id="contact">
         <div className="footer-content">
           <h2>A developer with pasion for sustainable development</h2>
           <p>Feel free to reach out to me for any inquiries or collaborations. I am always open to new opportunities and challenges.</p>

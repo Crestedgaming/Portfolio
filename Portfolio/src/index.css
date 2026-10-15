@@ -140,6 +140,8 @@ main {
 }
 
 .project-card {
+  display: flex;
+  flex-direction: column;
   background-color: #fff;
   border: 1px solid #deded8;
   border-radius: 0.5rem;
@@ -169,4 +171,20 @@ main {
   width: 3rem;
   height: 3rem;
   background: none;
+}
+
+
+.footer {
+  text-align: left;
+  padding: 1rem;
+  background-color: #f4f4f4;
+  border-top: 1px solid #deded8;
+ 
+ 
+}
+.footer-bottom {
+  text-align: right;
+  padding: 1rem;
+  background-color: #f4f4f4;
+  border-top: 1px solid #deded8;
 }
