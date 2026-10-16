@@ -12,7 +12,9 @@ This project was developed as part of my Frontend Developer education at Mediain
 
 ### Screenshots
 
-Add screenshots of the desktop and mobile versions of the portfolio here.
+![header](image.png)
+![projects & about](image-1.png)
+![projects & footer](image-2.png)
 
 ## Features
 
@@ -41,25 +43,21 @@ Add screenshots of the desktop and mobile versions of the portfolio here.
 
 The application uses reusable components to keep the code organized and maintainable.
 
-```text
 src/
 ├── components/
-│   ├── Header.tsx
-│   ├── Home.tsx
-│   ├── Projects.tsx
-│   ├── ProjectCard.tsx
-│   ├── Filters.tsx
-│   ├── About.tsx
-│   ├── Contact.tsx
-│   └── Footer.tsx
+│ ├── Header.tsx
+│ ├── About.tsx
+│ ├── Projects.tsx
+│ ├── ProjectCard.tsx
+│ ├── Filters.tsx
+│ ├── About.tsx
+│ ├── Contact.tsx
+│ └── Footer.tsx
 ├── data.ts
 ├── types.ts
 ├── App.tsx
 ├── App.css
 └── main.tsx
-```
-
-_Update this structure to match the final project._
 
 ## Installation and Setup
 
@@ -119,7 +117,8 @@ Users can filter displayed projects based on the technologies used.
 
 ### Responsive Design
 
-The interface was initially planned in Figma with mobile and desktop layouts.
+The interface was initially planned in Figma with mobile and desktop layouts, i did deviate slightly from
+this model with colors and graphics.
 
 CSS Flexbox, Grid, and media queries are used to adapt the layout to different screen sizes.
 
@@ -135,23 +134,24 @@ During development, I practiced:
 - Implementing conditional rendering and filtering
 - Building responsive layouts using CSS
 - Organizing project data separately from UI components
+- Id did struggle at the start, mainly due to what i should put into components and what could be baked into other components.
+-
 
 ## Future Improvements
 
 - Add dark mode
 - Improve animations and transitions
 - Add more projects as my portfolio grows
-- Improve accessibility and keyboard navigation
-- Add automated testing
+- Improve accessibility and keyboard navigation, this is something i really want to focus more on in the future.
 
 ## Author
 
-**[Your Name]**
+Markus Jönsson
 
 Frontend Developer Student — Mediainstitutet
 
-- GitHub: [Your GitHub profile]
-- LinkedIn: [Your LinkedIn profile]
+- GitHub: https://github.com/Crestedgaming
+- LinkedIn: https://www.linkedin.com/in/markus-j%C3%B6nsson-00897a90/
 - Portfolio: [Live portfolio URL]
 
 ## Project Information
