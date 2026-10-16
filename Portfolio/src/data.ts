@@ -5,7 +5,7 @@ import soleroImage from './assets/images/solero.png';
 export const projects: types[] = [
     {
         id: 1,
-        title: "Calippo shotts one-page snapshot",
+        title: "Calippo shots one-page snapshot",
         description: "This is a one-page snapshot of a potential promotion for the return of the popular ice cream that got discontinued in 2020, and after rumors of its return we made this site snapshot as a suggestion for what a return could look like, with some popular flavours from the CocaCola company.",
         image: soleroImage,
         link: "https://github.com/Crestedgaming/fed25d-grafiska-verktyg-bleed-trim",
