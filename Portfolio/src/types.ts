@@ -10,4 +10,4 @@ export type types = {
 
 
 
-export type Filter = 'All' | 'React' | 'JavaScript' | 'TypeScript' | 'HTML/CSS' | 'Node.js' | 'Express' | 'MongoDB' 
+export type Filter = 'All' | (string & {});

@@ -6,6 +6,7 @@ const Header = () => {
   return (
     <header id="header" className="header">
       <h1>Markus Jönsson</h1>
+      <p className="header-subtitle">Frontend Developer - Environmental Science</p>
       <button
   type="button"
   className="menu-toggle"

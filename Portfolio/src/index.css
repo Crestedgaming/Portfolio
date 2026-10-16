@@ -41,7 +41,7 @@ body {
 }
 
 .header nav a:hover {
-  color: #4658ed;
+  color: #4b6c3c;
 }
 
 
@@ -98,6 +98,23 @@ main {
   padding: 1rem;
 }
 
+
+.about {
+  background-color: #f3f5ef;
+  border-left: 4px solid #416b58;
+  border-radius: 0.75rem;
+  padding: 2rem;
+}
+
+.about h2 {
+  color: #263d32;
+}
+
+.about-highlight {
+  color: #416b58;
+  font-weight: 600;
+}
+
 .filters {
   display: flex;
   flex-wrap: wrap;
@@ -118,14 +135,14 @@ main {
 
 .filters button:hover {
   background-color: #f0f0ff;
-    border-color: #4658ed;
-    color: #4658ed;
+    border-color: #4b6c3c;
+    color: #4b6c3c;
 }
 
 .filters button.active {
-  background-color: #4658ed;
+  background-color: #4b6c3c;
   color: white;
-  border-color: #4658ed;
+  border-color: #4b6c3c;
 }
 
 .technologies {
@@ -224,7 +241,7 @@ main {
 }
 
 :where(.footer-contact a) {
-  color: #4658ed;
+  color: #25351e;
   text-decoration: none;
   font-weight: 500;
 }
@@ -252,6 +269,8 @@ main {
   background-color: #f4f4f4;
   border-top: 1px solid #b1b1ae;
 }
+
+
  
 
  
@@ -266,7 +285,7 @@ main {
 .footer-heading {
   font-size: 1rem;
   margin-bottom: 0.5rem;
-  color: #4658ed;
+  color: #25351e;
 }
 
 .social-icon-github {
@@ -309,6 +328,8 @@ main {
   border: none;
   font-size: 1.75rem;
 }
+
+
 
 .header nav {
   display: none;
