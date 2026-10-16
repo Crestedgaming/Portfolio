@@ -1,4 +1,4 @@
-export type Projects = {
+export type types = {
 
     id: number;
     title: string;
@@ -7,3 +7,7 @@ export type Projects = {
     link: string;
     technologies: string[]; 
 }
+
+
+
+export type Filter = 'All' | (string & {});

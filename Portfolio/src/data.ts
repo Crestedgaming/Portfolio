@@ -1,44 +1,50 @@
 
-import type { Projects } from './types';
+import type { types } from './types';
+import soleroImage from './assets/images/solero.png';
+import practicePortfolioImage from './assets/images/training-portfolio.png';
+import aliceImage from './assets/images/Alice.png'
+import budgetAppImage from './assets/images/budget.png';
+import weatherImage from './assets/images/Weather.png'
+import noteImage from './assets/images/Notes App Icon.png'
 
-export const projects: Projects[] = [
+export const projects: types[] = [
     {
         id: 1,
-        title: "Portfolio Website",
-        description: "A personal portfolio website built using React and TypeScript to showcase my projects and skills.",
-        image: "/images/portfolio.png",
-        link: "https://github.com/yourusername/portfolio",
-        technologies: ["React", "TypeScript", "CSS"]
+        title: "Calippo shots one-page snapshot",
+        description: "This is a one-page snapshot of a potential promotion for the return of the popular ice cream that got discontinued in 2020, and after rumors of its return we made this site snapshot as a suggestion for what a return could look like, with some popular flavours from the CocaCola company.",
+        image: soleroImage,
+        link: "https://github.com/Crestedgaming/fed25d-grafiska-verktyg-bleed-trim",
+        technologies: ["HTML", "CSS", "JavaScript", "Biome", "Vite", ".Json", "pnpm"]
     },
     {
         id: 2,
-        title: "E-commerce Platform",
-        description: "An e-commerce platform built with Node.js and Express, featuring user authentication, product management, and payment integration.",
-        image: "/images/ecommerce.png",
-        link: "https://github.com/yourusername/ecommerce",
-        technologies: ["Node.js", "Express", "MongoDB"]
+        title: "Practice portfolio",
+        description: "A small school project to test out my skills in HTML and css",
+        image: practicePortfolioImage,
+        link: "https://github.com/Crestedgaming/Test-portfolio-school-project",
+        technologies: ["HTML", "CSS"]
     },
     {
         id: 3,
-        title: "Blog Application",
-        description: "A full-stack blog application built with Django and React, allowing users to create, edit, and delete blog posts.",
-        image: "/images/blog.png",
-        link: "https://github.com/yourusername/blog",
-        technologies: ["Django", "React", "PostgreSQL"]
+        title: "Alice in wonderland game",
+        description: "Alice in Wonderland-inspired escape room game built as a team project in the FED25D JavaScript course.The game contains six connected rooms with different puzzle mechanics. As players finish rooms, they collect artifact letters and progress toward the final challenge.",
+        image: aliceImage,
+        link: "https://github.com/Crestedgaming/Alice-in-wonderland-game",
+        technologies: ["TypeScript", "SCSS", "HTML", "CSS", "Vite"]
     },
     {
         id: 4,
-        title: "Task Manager",
-        description: "A task management application built with React and TypeScript, allowing users to create, edit, and delete tasks.",
-        image: "/images/taskmanager.png",
+        title: "Budget App",
+        description: "This is a simple budget-app made as part of the course Front End Developer at Medieinstitutet.",
+        image: budgetAppImage,
         link: "https://github.com/yourusername/taskmanager",
-        technologies: ["React", "TypeScript", "CSS"]
+        technologies: ["React", "TypeScript", "CSS", "SCSS", "Vite", "Prettier", "Sass"]
     },
     {
         id: 5,
         title: "!Weather App",
         description: "A weather application built with React and TypeScript, allowing users to view current weather conditions and forecasts.",
-        image: "/images/weather.png",
+        image: weatherImage,
         link: "https://github.com/yourusername/weather",
         technologies: ["React", "TypeScript", "CSS"]
     },
@@ -46,7 +52,7 @@ export const projects: Projects[] = [
         id: 6,
         title: "Note Taking App",
         description: "A simple note-taking application built with React and TypeScript, allowing users to create and manage their notes.",
-        image: "/images/notes.png",
+        image: noteImage,
         link: "https://github.com/yourusername/notes",
         technologies: ["React", "TypeScript", "CSS"]
     }
