@@ -152,7 +152,7 @@ Frontend Developer Student — Mediainstitutet
 
 - GitHub: https://github.com/Crestedgaming
 - LinkedIn: https://www.linkedin.com/in/markus-j%C3%B6nsson-00897a90/
-- Portfolio: [Live portfolio URL]
+- Portfolio: https://portfolio-new-iota-pearl.vercel.app/
 
 ## Project Information
 
